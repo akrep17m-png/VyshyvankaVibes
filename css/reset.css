@@ -1,9 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
+/* CSS Reset */
 h1,
 h2,
 h3,
@@ -12,9 +7,12 @@ p {
   padding: 0;
 }
 
-a {
+a,
+address {
   text-decoration: none;
   outline: none;
+  font-style: normal;
+  color: inherit;
 }
 
 ul,
@@ -57,4 +55,3 @@ textarea {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
